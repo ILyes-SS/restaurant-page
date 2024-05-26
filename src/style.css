@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "poppins";
+    src: url(./Poppins-ExtraBold.ttf);
+}
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+body{
+    background-image: url(./images/background.jpeg);     
+    font-family: "poppins";
+}
+header{
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+    background-color: rgba(51, 29, 0, 0.747);
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+img{
+    height:80%;
+}
+.btns{
+    display: flex;
+    gap: 9px;
+    justify-content: space-around;
+}
+button{
+    color: white;
+    font-size: 22px;
+    background-color: transparent;
+    font-family: "poppins";
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    position: relative;
+    bottom: 3px;
+}
+.home{
+    color:rgba(51, 29, 0, 0.747);
+    background-color: white;
+    border: 1px white solid;
+    border-radius: 4px;
+}
+#content{
+    margin-top: 17px;
+    width: 60%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 8px;
+    margin-left: 18%;
+    align-items: center;
+}
+#content img{
+    height: 150px;
+}
+h3{
+    color: rgba(51, 29, 0, 0.747);
+}
+.copyRights{
+    margin-top: 50px;
+    font-size: 13px;
+    color: white;
+    background-color: rgba(51, 29, 0, 0.747);
+    padding: 6px;
+    text-align: center;
+}
