@@ -1,5 +1,8 @@
 import logoOne from "./images/hamburger.png"
 import logoTwo from "./images/logo2-removebg-preview.png"
+import "./common.css"
+import "./home.css"
+
 export function loadHome(){
     const nav =document.querySelector("nav");
     const content = document.querySelector("#content");
@@ -7,7 +10,7 @@ export function loadHome(){
     const btnsDiv = document.querySelector(".btns");
 
     const logo1 = new Image();
-    const logo2 = new Image();
+    const logo2 = document.createElement("img");
     const h3 = document.createElement("h3");
     const para = document.createElement("p");
     const copyRight = document.createElement("div");
