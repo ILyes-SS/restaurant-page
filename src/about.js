@@ -21,9 +21,13 @@ export function loadAbout(){
     const photo = document.createElement("img");
 
     icon1.src = iconOne;
+    icon1.className = "icon";
     icon2.src = iconTwo;
+    icon2.className = "icon";
     icon3.src = iconThree;
+    icon3.className = "icon";
     photo.src = restaurant;
+    photo.className = "photo";
 
     const div1 = document.createElement("div");
     const div2 = document.createElement("div");

@@ -1,0 +1,14 @@
+#content div{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    
+
+}
+#content .icon{
+   height: 30px;
+}
+#content .photo{
+    height: 290px;
+    border-radius: 9px;
+}
