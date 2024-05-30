@@ -1,5 +1,7 @@
 import { loadHome as home} from "./home.js";
 import { loadAbout as about} from "./about.js";
+import { loadMenu as menu} from "./menu.js";
+
 //import "./style.css" can be used here too
 //common html elements should have been put in html file now you need more code when selecting home
 
@@ -24,4 +26,10 @@ homeBtn.addEventListener("click",()=>{
     nav.removeChild(logoBurger);
     contentDiv.textContent = "";
     home()
+})
+const menuBtn = document.querySelector(".menu");
+menuBtn.addEventListener("click",()=>{
+
+    contentDiv.textContent = "";
+    menu()
 })
