@@ -2,7 +2,7 @@ import chicken from "./images/food/chicken.png"
 import burger from "./images/food/burger.png"
 import fries from "./images/food/fries.png"
 import pizza from "./images/food/pizza.png"
-
+import "./menu.css"
 
 
 export function loadMenu(){
@@ -49,18 +49,35 @@ export function loadMenu(){
     const div3 = document.createElement("div");
     const div4 = document.createElement("div");
 
+    const text1 = document.createElement("div");
+    const text2 = document.createElement("div");
+    const text3 = document.createElement("div");
+    const text4= document.createElement("div");
+
+    text1.className = "text";
+    text2.className = "text";
+    text3.className = "text";
+    text4.className = "text";
+
     div1.appendChild(food1);
-    div1.appendChild(title1);
-    div1.appendChild(info1);
+    text1.appendChild(title1);
+    text1.appendChild(info1);
+    div1.appendChild(text1);
+
     div2.appendChild(food2);
-    div2.appendChild(title2);
-    div2.appendChild(info2);
+    text2.appendChild(title2);
+    text2.appendChild(info2);
+    div2.appendChild(text2);
+
     div3.appendChild(food3);
-    div3.appendChild(title3);
-    div3.appendChild(info3);
+    text3.appendChild(title3);
+    text3.appendChild(info3);
+    div3.appendChild(text3);
+
     div4.appendChild(food4);
-    div4.appendChild(title4);
-    div4.appendChild(info4);
+    text4.appendChild(title4);
+    text4.appendChild(info4);
+    div4.appendChild(text4);
 
     content.appendChild(title);
     content.appendChild(div1);
