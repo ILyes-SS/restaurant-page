@@ -1,0 +1,8 @@
+div#content  div.text{
+    flex-direction: column;
+    gap: 0px;
+    
+}
+div#content  div.text h3{
+    margin-bottom: 0px;
+}
